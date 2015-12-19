@@ -35,10 +35,12 @@ DEBUG_LDFLAGS	:= -g
 # ============================
 # change directories if needed
 # ============================
-OPENZWAVE      := $(HOME)/ozw/openzwave
+#OPENZWAVE      := $(HOME)/ozw/openzwave
+OPENZWAVE      := /usr/local/src/open-zwave
 OPENZWAVE_LIB	:= /usr/lib
 OPENZWAVE_INC	:= $(OPENZWAVE)/cpp/src
-THRIFT		    := $(HOME)/ozw/thrift
+#THRIFT		    := $(HOME)/ozw/thrift
+THRIFT		    := /usr/local/src/thrift
 THRIFT_INC	    := /usr/local/include/thrift
 BOOSTSTOMP_LIB  := /usr/local/lib
 BOOSTSTOMP_INC	:= /usr/local/include/booststomp
